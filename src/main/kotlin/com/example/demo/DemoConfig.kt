@@ -25,6 +25,7 @@ class DemoConfig {
     @Bean
     fun stringUtil(): StringUtil = StringUtil()
 
+    //* Use prototype scope to create a new instance of the class for each request
     @Bean
     @Scope("prototype")
     fun randomIdGenerator(): RandomIdGenerator = RandomIdGenerator()
@@ -40,6 +41,7 @@ class GreetingService {
 
 class StringUtil {
     fun toUpperCase(input: String): String = input.uppercase()
+    fun toLowerCase(input: String): String = input.lowercase()
 }
 
 class RandomIdGenerator {

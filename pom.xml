@@ -18,7 +18,15 @@
 		<license/>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+      <id>nikohoffren</id>
+      <name>Niko Hoffrén</name>
+      <email>niko.hoffren@gmail.com</email>
+      <roles>
+          <role>developer</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
 	</developers>
 	<scm>
 		<connection/>

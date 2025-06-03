@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class Application
 
 fun main(args: Array<String>) {
-	runApplication<Application>(*args)
+    @Suppress("JAVA_MODULE_DOES_NOT_EXPORT_PACKAGE")
+    runApplication<Application>(*args)
 }
