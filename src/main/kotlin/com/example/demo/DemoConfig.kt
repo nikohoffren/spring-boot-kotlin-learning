@@ -15,6 +15,7 @@ class DemoConfig {
     @Bean
     fun greetingService(): GreetingService = GreetingService()
 
+    
     //* Creating instance of the class (Formatter interface) on the fly (inline implementation)
     @Bean
     fun dateFormatter(): Formatter<Date> = object : Formatter<Date> {
