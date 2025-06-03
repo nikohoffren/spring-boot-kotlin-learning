@@ -1,0 +1,127 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #343a40;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #ffc107;
+}
+h1 {
+  color: #343a40;
+  margin-top: 2rem;
+}
+p {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+.main-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+}
+
+footer {
+  background: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 2rem auto 0 auto;
+  background: #f1f3f4;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.contact-form .form-group {
+  margin-bottom: 1.2rem;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+  box-sizing: border-box;
+}
+.contact-form button {
+  background: #343a40;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact-form button:hover {
+  background: #23272b;
+}
+
+.contact-info-box {
+  background: #e9f7ef;
+  border: 1px solid #b2dfdb;
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 4px rgba(44, 62, 80, 0.06);
+}
+.contact-info-box h2 {
+  margin-top: 0;
+  color: #00796b;
+  font-size: 1.3rem;
+}
+.contact-info-box p {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+.contact-info-box strong {
+  color: #004d40;
+}
+
+.alert-success {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.08rem;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(40, 167, 69, 0.06);
+}
